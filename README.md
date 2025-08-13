@@ -95,24 +95,9 @@ This will:
 ## 🧪 Model Performance
 
 | Metric    | Score |
-| Accuracy  | 80 %  |
+| Accuracy  | 79 %  |
 | Precision | 0.93  |
 | Recall    | 0.87  |
 | F1 Score  | 0.86  |
 
 
-## 📸 Demo Screenshot
-
-Include a screenshot or webcam preview showing prediction (optional).
-
-
-## Author
-
-Bhagyashri Ashtekar
-MSc Computer Science (Project Work)
-Mumbai University
-
-
-## License
-
-This project is for educational purposes only.
