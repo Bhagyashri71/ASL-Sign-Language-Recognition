@@ -1,4 +1,3 @@
-# ASL-Sign-Language-Recognition
 
 
 ########### ASL Hand Sign Recognition using CNN ###################
@@ -9,16 +8,20 @@ It allows both image-based predictions and real-time gesture detection using you
 ## 📂 Project Structure
 
 asl\_project/
-├── dataset_loader.py         # Loads and preprocesses images
-├── eda_visualization.py      # Generates graphs for data imbalance and insights
-├── model_builder.py          # Defines the CNN model architecture
-├── train.py                   # Trains the model with callbacks and saves it
-├── evaluate.py             # Evaluates the model and prints classification report
-├── webcam_infer.py         # Uses OpenCV for live webcam prediction
+├── dataset\_loader.py         # Loads and preprocesses images
+├── eda\_visualization.py      # Generates graphs for data imbalance and insights
+├── model\_builder.py          # Defines the CNN model architecture
+├── train\_model.py            # Trains the model with callbacks and saves it
+├── test\_model.py             # Evaluates the model and prints classification report
+├── webcam\_predict.py         # Uses OpenCV for live webcam prediction
 ├── config.py                 # Global constants (like image size, paths)
 ├── utils.py                  # Helper functions like label mapping
-├── asl_model.h5              # Trained model (binary file)
+├── asl\_model.h5              # Trained model (binary file)
 └── README.md                 # Project documentation
+
+````
+
+---
 
 ## 🧰 Requirements
  Install all required packages:
@@ -80,14 +83,36 @@ This will:
 * Predict the class in real-time and show it on screen
 
 
-##  Model Performance
+## 📊 EDA and Class Imbalance
+
+ eda_visualization.py helps visualize:
+
+  * Class distribution (imbalanced dataset)
+  * Augmented data
+  * Accuracy/loss curves
+
+
+## 🧪 Model Performance
 
 | Metric    | Score |
-| Accuracy  | 79 %  |
+| Accuracy  | 80 %  |
 | Precision | 0.93  |
 | Recall    | 0.87  |
 | F1 Score  | 0.86  |
 
 
+## 📸 Demo Screenshot
+
+Include a screenshot or webcam preview showing prediction (optional).
 
 
+## Author
+
+Bhagyashri Ashtekar
+MSc Computer Science (Project Work)
+Mumbai University
+
+
+## License
+
+This project is for educational purposes only.
